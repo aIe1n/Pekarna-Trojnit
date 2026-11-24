@@ -1,0 +1,188 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[slovene]{babel}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[margin=2.5cm]{geometry}
+
+\graphicspath{{slike/}}
+
+\begin{document}
+
+\begin{titlepage}
+  \centering
+  \vspace*{3cm}
+  {\Huge\bfseries Pregled obstoječih rešitev\par}
+  \vspace{1cm}
+  {\Large Spletna stran Pekarna Trojnit\par}
+  \vspace{2cm}
+  {\large Predmet: KIDS\par}
+  \vspace{2cm}
+  {\large Člani skupine:\par}
+  \vspace{0.5cm}
+  {\large
+    Alen Zajc\\
+    Anej Purgaj\\
+  \par}
+  \vfill
+  {\large \today\par}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section{Uvod}
+
+V projektu razvijamo predstavitveno spletno stran za podjetje Pekarna Trojnit.
+Pekarne in slaščičarne pogosto nimajo spletne strani, ki bi obiskovalcu hitro pokazala,
+kaj ponujajo, kdaj so odprte in kje se nahajajo. Naš cilj je pripraviti pregledno stran,
+ki obiskovalcu na enem mestu pokaže ponudbo, delovni čas, lokacijo in kontakt.
+
+V nadaljevanju predstavimo tri obstoječe spletne strani podobnih podjetij, njihove ključne
+funkcionalnosti ter prednosti in slabosti. Na koncu opišemo, kaj bomo prevzeli
+in kaj bo naša rešitev naredila drugače.
+
+\section{Pregled obstoječih rešitev}
+
+\subsection{Rešitev 1: Pekarna Pečjak}
+
+\paragraph{Opis:}
+Pekarna Pečjak je slovensko podjetje, ki ponuja širok izbor pekovskih izdelkov. Na njihovi spletni strani lahko obiskovalci spoznajo podjetje, pregledajo izdelke, si ogledajo katalog ter poiščejo prodajalne. Na voljo je tudi spletna trgovina.
+
+\paragraph{Ključne funkcionalnosti.}
+\begin{itemize}
+  \item Pregled izdelkov in različnih kategorij
+  \item Spletni katalog izdelkov
+  \item Spletna trgovina
+  \item Iskanje lokacij prodajaln
+  \item Predstavitev podjetja in informacij o kakovosti
+\end{itemize}
+
+\paragraph{Prednosti.}
+\begin{itemize}
+  \item Velika in raznolika ponudba izdelkov
+  \item Pregledna razdelitev izdelkov v kategorije
+  \item Uporabniki lahko izdelke naročijo tudi prek spleta
+  \item Na enem mestu so zbrane informacije o podjetju in prodajalnah
+\end{itemize}
+
+\paragraph{Slabosti.}
+\begin{itemize}
+  \item Zaradi velike količine vsebine je lahko uporabnikova pot do določenega izdelka nekoliko daljša
+  \item Spletna stran vsebuje veliko različnih informacij, zato lahko deluje nekoliko bolj kompleksno za uporabnika, ki želi samo hitro pregledati ponudbo.
+\end{itemize}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{pecjak.png}
+  \caption{Domača stran Pekarne Pečjak (vir: \cite{resitev1}, zajem zaslona z dne \today).}
+  \label{fig:resitev1}
+\end{figure}
+
+\subsection{Rešitev 2: Žito}
+
+\paragraph{Opis:}
+Žito je slovensko živilsko podjetje, ki med drugim ponuja različne vrste kruha, pekovskih izdelkov in slaščic. Na spletni strani je na voljo katalog izdelkov, kjer lahko uporabniki pregledujejo ponudbo in iščejo izdelke glede na različne lastnosti
+
+\paragraph{Ključne funkcionalnosti.}
+\begin{itemize}
+  \item Pregled kataloga izdelkov
+  \item Razvrščanje in filtriranje izdelkov po kategorijah
+  \item Iskanje izdelkov glede na lastnosti, okus ali sestavine
+  \item Podrobnejši opisi posameznih izdelkov
+  \item Predstavitev podjetja
+\end{itemize}
+
+\paragraph{Prednosti.}
+\begin{itemize}
+  \item Dobro organiziran katalog izdelkov
+  \item Možnost filtriranja izdelkov po različnih kriterijih
+  \item Podrobne informacije o posameznih izdelkih
+  \item Uporabnik lahko lažje najde izdelek, ki ustreza njegovim željam
+\end{itemize}
+
+\paragraph{Slabosti.}
+\begin{itemize}
+  \item Spletna stran predstavlja širše živilsko podjetje, ne samo klasične lokalne pekarne
+  \item Zaradi večjega števila kategorij in izdelkov je lahko ponudba za uporabnika, ki išče samo pekovske izdelke, manj neposredna
+\end{itemize}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{žito.png}
+  \caption{Domača stran Žita (vir: \cite{resitev2}, zajem zaslona z dne \today).}
+  \label{fig:resitev2}
+\end{figure}
+
+\subsection{Rešitev 3: Mlinar}
+
+\paragraph{Opis:} 
+Mlinar je pekarska veriga, ki na svoji spletni strani predstavlja podjetje, ponudbo izdelkov in lokacije svojih poslovalnic. Omogoča tudi spletno naročanje določenih izdelkov, predvsem tort in peciva, z možnostjo prevzema v izbrani poslovalnici.
+
+\paragraph{Ključne funkcionalnosti.}
+\begin{itemize}
+  \item Predstavitev podjetja in njegove ponudbe
+  \item Pregled izdelkov
+  \item Spletna trgovina za naročanje izbranih izdelkov
+  \item Izbira poslovalnice za prevzem naročila
+  \item Iskanje lokacij poslovalnic
+  \item Informacije o mobilni aplikaciji in novostih
+\end{itemize}
+
+\paragraph{Prednosti.}
+\begin{itemize}
+  \item Sodobna predstavitev podjetja
+  \item Možnost spletnega naročanja določenih izdelkov
+  \item Uporabnik lahko izbere poslovalnico za prevzem
+  \item Na voljo so informacije o lokacijah poslovalnic
+\end{itemize}
+
+\paragraph{Slabosti.}
+\begin{itemize}
+  \item Spletno naročanje je namenjeno predvsem določenim izdelkom, kot so torte in pecivo
+  \item Uporabnik ne more nujno naročiti vseh izdelkov iz običajne ponudbe prek spletne trgovine
+\end{itemize}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{mlinar.png}
+  \caption{Domača stran Mlinarja (vir: \cite{resitev3}, zajem zaslona z dne \today).}
+  \label{fig:resitev3}
+\end{figure}
+
+% ---------------- ZAKLJUČEK ----------------
+\section{Zaključek}
+
+\paragraph{Kaj bomo prevzeli:}
+Od obstoječih rešitev bomo prevzeli pregledno navigacijo, razdelitev izdelkov po kategorijah in možnost ogleda podrobnosti posameznih izdelkov. Uporabili bomo tudi jasno predstavitev podjetja, kontaktnih podatkov, lokacije in delovnega časa. Navdih bomo črpali predvsem iz kataloga izdelkov Pekarne Pečjak in Žita ter možnosti spletnega naročanja pri Mlinarju.
+
+\paragraph{Kaj bo naša rešitev naredila drugače ali bolje:}
+
+Naša spletna stran Pekarna TrojniT se bo od obstoječih rešitev razlikovala predvsem po svoji preprostosti in osredotočenosti na lokalno pekarno. Namesto velikega kataloga z veliko različnimi funkcijami bomo ponudili manjšo, pregledno in uporabniku prijazno spletno stran, na kateri bodo obiskovalci hitro našli informacije o ponudbi, cenah, delovnem času in kontaktu.
+
+% ---------------- VIRI ----------------
+\begin{thebibliography}{9}
+
+\bibitem{resitev1}
+  Pekarna Pečjak,
+  \emph{pekarna-pecjak.si}.
+  Dostopno na: \url{https://www.pekarna-pecjak.si/}
+  (ogled: 24.~11.~2026).
+
+\bibitem{resitev2}
+  Žito,
+  \emph{Zito.si}.
+  Dostopno na: \url{https://www.zito.si/sl/}
+  (ogled: 24.~11.~2026).
+
+\bibitem{resitev3}
+  Mlinar,
+  \emph{mlinarslovenije.si}.
+  Dostopno na: \url{https://mlinarslovenija.si/si}
+  (ogled: 24.~11.~2026).
+
+\end{thebibliography}
+
+\end{document}
